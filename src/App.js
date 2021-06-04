@@ -61,7 +61,7 @@ componentDidMount() {
               }
             } exact /> */}
             <Route path="/random-beer" component={ RandomBeer } exact />
-            {/* <Route path="/new-beer" component={ Beers } /> */}
+            <Route path="/new-beer" component={ NewBeer } />
             <Route component={ Error } />
           </Switch>
       </Router>
